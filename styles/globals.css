@@ -4,6 +4,7 @@
 
 .body{
     background-color: black;
+    font-family: var(--font-sans);
 }
 .no-rounded {
     border-radius: 0 !important;
