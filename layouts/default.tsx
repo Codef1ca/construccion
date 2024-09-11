@@ -2,7 +2,7 @@ import { Link } from "@nextui-org/link";
 
 import { Head } from "./head";
 import {Image} from "@nextui-org/react";
-import { Navbar } from "@/components/navbar";
+
 
 export default function DefaultLayout({
   children,
