@@ -5,7 +5,7 @@ import { fontSans } from "@/config/fonts";
 
 export default function Document() {
   return (
-<div>
+    <Html data-theme="dark" style={{ colorScheme: "dark" }}>
       <Head />
       <body
         className={clsx(
@@ -16,7 +16,6 @@ export default function Document() {
         <Main />
         <NextScript />
       </body>
-      </div>
-
+    </Html>
   );
 }
