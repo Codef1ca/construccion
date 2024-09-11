@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.body{
+    background-color: black;
+}
 .no-rounded {
     border-radius: 0 !important;
   }
