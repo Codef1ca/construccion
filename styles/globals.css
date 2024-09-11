@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .body{
-    background-color: black;
+    background-color: black !important;
     font-family: var(--font-sans);
 }
 .no-rounded {

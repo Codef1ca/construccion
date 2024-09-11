@@ -5,7 +5,7 @@ import { fontSans } from "@/config/fonts";
 
 export default function Document() {
   return (
-    <Html lang="en">
+<div>
       <Head />
       <body
         className={clsx(
@@ -16,6 +16,7 @@ export default function Document() {
         <Main />
         <NextScript />
       </body>
-    </Html>
+      </div>
+
   );
 }
