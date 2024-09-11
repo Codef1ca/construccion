@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.no-rounded {
+    border-radius: 0 !important;
+  }
+  .no-rounded2{
+    border-radius: 0 !important;
+  }
+  
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.fica{
+    margin-left: 5px;
+    border-radius: 0 !important;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #075e54cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  .floating-button img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    .83% {
+      transform: translateX(-5px) rotate(-5deg);
+    }
+    1.66% {
+      transform: translateX(5px) rotate(5deg);
+    }
+    2.5% {
+      transform: translateX(-5px) rotate(-5deg);
+    }
+    3.33% {
+      transform: translateX(0);
+    }
+    100%{
+  
+    }
+  
+  }
+  
+  .shake {
+    animation: shake 30s ease-in-out infinite;
+  }
+
+  @media (max-width: 314px) {
+    .text-\[2\.3rem\] {
+        font-size: 2.1rem;
+    }
+  }
+
+  @media (max-width: 278px) {
+    .text-\[2\.3rem\] {
+        font-size: 2rem;
+    }
+    .no-rounded2{
+        width: 200px;
+        height: 45px;
+      }
+  }
+
+  @media (max-width: 260px) {
+    .text-\[2\.3rem\] {
+        font-size: 1.7rem;
+    }
+
+  }
+
+
